@@ -86,28 +86,18 @@ button:hover {
 #battery,
 #cpu,
 #memory,
-#disk,
-#temperature,
 #backlight,
-#network,
-#pulseaudio,
 #wireplumber,
-#custom-media,
 #tray,
 #mode,
-#idle_inhibitor,
-#scratchpad,
-#mpd,
 #custom-spotify{
    padding: 5px;
 background-color: #282738;
 border-radius: 15px;
+margin: 5px 0;
 }
 
-#window,
-#workspaces {
-    margin: 0 4px;
-}
+
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
@@ -150,6 +140,8 @@ label:focus {
 
 #custom-powermenu {
 	color: #ed8796;
+	padding-right: 6px;
+	margin-right: 1px;
 }
 
 #clock {
