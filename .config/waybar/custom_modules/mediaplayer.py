@@ -63,7 +63,12 @@ class PlayerManager:
 
     def write_output(self, text, player):
         logger.debug(f"Writing output: {text}")
-        output = {"text" :text["status"]+" " +text["title"], 
+        title = ""
+        if text["title"] == "":
+            title = "Not playing"
+        else: 
+            title= text["status"] + " " + text["title"]
+        output = {"text" : title, 
                   "tooltip" : text["title"] + " - " + text["artist"],
                   "class": "custom-" + player.props.player_name,
                   "alt": player.props.player_name}
@@ -117,7 +122,6 @@ class PlayerManager:
         elif artist is not None and title is not None:
             track_info["title"] = title
             track_info["artist"] = artist
-
         if track_info:
             if player.props.status == "Playing":
                 track_info["status"] = "" 
