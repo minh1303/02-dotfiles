@@ -22,6 +22,8 @@ mainbox {
   children: [message,inputbar,listview];
 }
 
+
+
 message {
     enabled:                     true;
     margin:                      0px 100px;
@@ -56,7 +58,7 @@ error-message {
 
 element {
   background: transparent;
-  children: [ element-icon, element-text ];
+  children: [element-text ];
 }
 element,element-text,element-icon, button {
     cursor: pointer;
@@ -88,7 +90,7 @@ listview {
   spacing: 10px;
   background-color: #282738;
   border-color:     #282738;
-  scrollbar:    true;
+  scrollbar:    false;
 }
 
 
