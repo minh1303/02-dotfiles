@@ -26,9 +26,8 @@
     },
     "hyprland/workspaces":{
 	"active-only": false,
-	"format" : " {name}",
+	"format" : "♥ {name}",
 	"all-outputs" : true,
-	
     },
     "cpu": {
         "format": " {usage}%",

@@ -62,7 +62,7 @@ button:hover {
 }
 
 #workspaces button.active {
-    color: #f4d9e1;
+    color: #aaa;
     border-radius: 15px;
     background-color: #E6B9C6;
 }
@@ -146,6 +146,7 @@ label:focus {
 
 #clock {
     padding-top: 3px;
+
 }
 #battery,
 #cpu,
