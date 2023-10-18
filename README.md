@@ -8,6 +8,6 @@
 - **Launcher** • [Rofi](https://github.com/davatorium/rofi) 
 - **File Manager** • [Ranger](https://github.com/ranger/ranger)
 - **Audio visualizer** • [cava](https://github.com/karlstav/cava)
-- 
+
 ![showcase](/screenshot/output.png)
 
