@@ -70,7 +70,7 @@ listview, message {
   border-radius: 10px;
   background-color: #282738;
   columns: 1;
-  lines: 4;
+  lines: 5;
 }
 listview {
   border:       5px 5px 5px 5px;
