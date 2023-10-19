@@ -13,5 +13,19 @@
   
 ***Took inspiration and heavy influence from*** [[HYPRLAND] ピンク | Pink Desktop](https://www.reddit.com/r/unixporn/comments/1479eqh/hyprland_%E3%83%94%E3%83%B3%E3%82%AF_pink_desktop/)
 
+For sddm themes:
+
+| **sudo cp ./sddm-02 /usr/share/sddm/themes**
+
+| Edit (or add) to **/etc/sddm.conf** 
+
+```
+[Theme]
+Current=sddm-02
+```
+
+
+
+
 ![showcase](/screenshot/output.png)
 
