@@ -50,27 +50,25 @@ button:hover {
 	background: #282738;
 	margin: 5px 5px 5px 5px;
   padding: 0px 5px 0px 5px;
-	border-radius: 15px;
+	border-radius: 10px;
   font-weight: normal;
   font-style: normal;
 }
 
 #workspaces button {
     padding: 0px 5px;
-    border-radius: 15px;
     color: #928374;
 }
 
-#workspaces button.active {
+#workspaces button.active, #workspaces button.persistent, #workspaces button.empty, #workspaces.focused {
     color: #aaa;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: #E6B9C6;
 }
 
 #workspaces button:hover {
 	background-color: #E6B9C6;
 	color: black;
-	border-radius: 15px;
 }
 
 #workspaces button.urgent {
@@ -86,14 +84,13 @@ button:hover {
 #battery,
 #cpu,
 #memory,
-#backlight,
 #wireplumber,
 #tray,
 #mode,
 #custom-spotify{
-   padding: 5px;
+   padding: 5px 10px;
 background-color: #282738;
-border-radius: 15px;
+border-radius: 10px;
 margin: 5px 0;
 }
 
@@ -113,7 +110,6 @@ margin: 5px 0;
 
 
 #battery.charging, #battery.plugged {
-    color: #ffffff;
     background-color: #26A65B;
 }
 
@@ -140,13 +136,12 @@ label:focus {
 
 #custom-powermenu {
 	color: #ed8796;
-	padding-right: 6px;
 	margin-right: 1px;
+	padding:5px;
+	padding-right: 8px;
 }
 
 #clock {
-    padding-top: 3px;
-
 }
 #battery,
 #cpu,
