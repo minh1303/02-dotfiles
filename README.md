@@ -27,5 +27,5 @@ Current=sddm-02
 
 
 
-![showcase](/screenshot/output.png)
+![showcase](/screenshot/screenshot.png)
 
