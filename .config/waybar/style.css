@@ -58,12 +58,14 @@ button:hover {
 #workspaces button {
     padding: 0px 5px;
     color: #928374;
+    border-radius: 10px;
 }
 
-#workspaces button.active, #workspaces button.persistent, #workspaces button.empty, #workspaces.focused {
+#workspaces button.active{
     color: #aaa;
-    border-radius: 10px;
     background-color: #E6B9C6;
+
+    border-bottom: 3px solid #f4d9e1;
 }
 
 #workspaces button:hover {
