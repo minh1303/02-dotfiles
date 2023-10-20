@@ -4,11 +4,13 @@ local action = wezterm.action
 config.font = wezterm.font 'JetBrains Mono'
 config.color_scheme = "Catppuccin Mocha"
 config.use_fancy_tab_bar = false
+
+config.enable_wayland = true
 config.colors = {
 tab_bar = {
     -- The color of the strip that goes along the top of the window
     -- (does not apply when fancy tab bar is in use)
-    background = '#282738',
+    background = 'rgba(42,42,38,0)',
 
     -- The active tab is the one that has focus in the window
     active_tab = {
@@ -37,21 +39,19 @@ tab_bar = {
     }
 }}
 
--- key binds
-config.keys = {
+
+ config.keys = {
   {
     key = 'w',
     mods = 'CTRL',
-    action = action.CloseCurrentTab { confirm = true },
+    action = action.CloseCurrentTab { confirm = false },
   },
-
   {
-	key = 'n',
-	mods = "CTRL",
-	action = action.SpawnTab 'CurrentPaneDomain'
+  key = "n",
+  mods = 'CTRL',
+  action = action.SpawnTab 'CurrentPaneDomain', 
   }
 }
 
-
-config.window_background_opacity = 0.8
+config.window_background_opacity = 0.5
 return config
