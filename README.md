@@ -2,7 +2,7 @@
 
 - **WM** • [Hyprland](https://github.com/hyprwm/Hyprland) 💻
 - **Shell** • [Zsh](https://www.zsh.org) 🐚
-- **Terminal** • [kitty](https://github.com/kovidgoyal/kitty) 🐈
+- **Terminal** • [wezterm](https://github.com/wez/wezterm) 🐈
 - **Bar** • [Waybar](https://aur.archlinux.org/packages/waybar-hyprland-git) ☕
 - **Notify Daemon** • [Dunst](https://github.com/dunst-project/dunst) 🚀
 - **Launcher** • [Rofi](https://github.com/davatorium/rofi) ❤️ 
