@@ -43,7 +43,6 @@ button {
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
     background: inherit;
-    box-shadow: inset 0 -3px #ffffff;
 }
 
 #workspaces {
@@ -64,7 +63,6 @@ button:hover {
 #workspaces button.active{
     color: #aaa;
     background-color: #E6B9C6;
-
     border-bottom: 3px solid #f4d9e1;
 }
 
