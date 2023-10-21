@@ -11,7 +11,7 @@ case $selected_option in
         ;;
     "  Suspend")
         systemctl suspend
-        ;;:lock: 
+        ;; 
     "  Restart")
         systemctl reboot
         ;;
