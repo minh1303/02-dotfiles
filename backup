@@ -81,6 +81,7 @@ downgrade
 dracut
 duf
 duktape
+dunst
 e2fsprogs
 efibootmgr
 efitools
@@ -144,6 +145,7 @@ gpgme
 gpm
 graphite
 grep
+grim
 groff
 gsettings-desktop-schemas
 gsm
@@ -196,6 +198,7 @@ jansson
 jbigkit
 jemalloc
 jfsutils
+jq
 json-c
 json-glib
 jsoncpp
@@ -273,6 +276,7 @@ libical
 libice
 libidn2
 libiec61883
+libimagequant
 libimobiledevice
 libinih
 libinput
@@ -485,6 +489,7 @@ nvidia-utils
 oath-toolkit
 ocl-icd
 onevpl
+oniguruma
 openal
 openconnect
 opencore-amr
@@ -568,6 +573,7 @@ python-defusedxml
 python-future
 python-gobject
 python-packaging
+python-pillow
 python-psutil
 python-pyqt5
 python-pyqt5-sip
@@ -602,6 +608,7 @@ rtmpdump
 run-parts
 s-nail
 sbc
+scdoc
 sdl2
 seatd
 sed
@@ -610,6 +617,7 @@ sg3_utils
 shadow
 shared-mime-info
 slang
+slurp
 smartmontools
 sndio
 sof-firmware
