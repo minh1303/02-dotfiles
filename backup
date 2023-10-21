@@ -637,7 +637,6 @@ sudo
 svt-av1
 svt-hevc
 swayidle
-swaylock
 sysfsutils
 systemd
 systemd-libs
