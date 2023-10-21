@@ -23,7 +23,6 @@ atkmm
 attr
 audit
 autoconf
-autoconf-archive
 automake
 avahi
 b43-fwcutter
@@ -40,19 +39,15 @@ bluez-utils
 brotli
 btrfs-progs
 bzip2
-c-ares
 ca-certificates
 ca-certificates-mozilla
 ca-certificates-utils
 cairo
 cairomm
 cantarell-fonts
-cbindgen
 check
 chromaprint
 chrono-date
-clang
-compiler-rt
 coreutils
 cpio
 cryptsetup
@@ -77,12 +72,15 @@ dmraid
 dnsmasq
 dnssec-anchors
 dosfstools
+dotnet-host
+dotnet-runtime
+dotnet-sdk
+dotnet-targeting-pack
 double-conversion
 downgrade
 dracut
 duf
 duktape
-dump_syms
 e2fsprogs
 efibootmgr
 efitools
@@ -162,7 +160,6 @@ gtk-layer-shell
 gtk-update-icon-cache
 gtk3
 gtkmm3
-gtksourceview4
 guile
 gupnp
 gupnp-igd
@@ -182,7 +179,6 @@ hyprpaper
 iana-etc
 icu
 imagemagick
-imake
 imath
 inetutils
 iniparser
@@ -426,7 +422,6 @@ linux-firmware-whence
 linux-headers
 linux-lts
 linux-lts-headers
-lld
 llvm
 llvm-libs
 lm_sensors
@@ -436,7 +431,6 @@ lsb-release
 lsof
 lsscsi
 lua
-luit
 lv2
 lvm2
 lz4
@@ -460,11 +454,11 @@ mtdev
 mtools
 nano
 nano-syntax-highlighting
-nasm
 ncurses
 neofetch
 neon
 netctl
+netstandard-targeting-pack
 nettle
 network-manager-applet
 networkmanager
@@ -475,7 +469,6 @@ nfsidmap
 nftables
 nilfs-utils
 nm-connection-editor
-nodejs
 noto-fonts
 npth
 nspr
@@ -569,7 +562,6 @@ procps-ng
 psmisc
 pv
 python
-python-cairo
 python-capng
 python-colorama
 python-defusedxml
@@ -608,10 +600,8 @@ rsync
 rtkit
 rtmpdump
 run-parts
-rust
 s-nail
 sbc
-sdbus-cpp
 sdl2
 seatd
 sed
@@ -676,10 +666,6 @@ vpnc
 vulkan-headers
 vulkan-icd-loader
 vulkan-validation-layers
-wasi-compiler-rt
-wasi-libc
-wasi-libc++
-wasi-libc++abi
 waybar
 wayland
 wayland-protocols
@@ -692,7 +678,6 @@ wireplumber
 wpa_supplicant
 x264
 x265
-xbitmaps
 xcb-proto
 xcb-util
 xcb-util-cursor
@@ -715,7 +700,6 @@ xmlsec
 xorg-fonts-encodings
 xorg-server
 xorg-server-common
-xorg-server-xvfb
 xorg-setxkbmap
 xorg-xauth
 xorg-xdpyinfo
@@ -733,12 +717,10 @@ xorgproto
 xvidcore
 xxhash
 xz
-yasm
 yay
 zbar
 zeromq
 zimg
-zip
 zlib
 zsh
 zstd
